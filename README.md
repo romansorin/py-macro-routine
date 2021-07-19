@@ -8,3 +8,11 @@ A Python script to be run daily that opens a list of specified sites. Great for 
 
 2. Run with python3:
 `$ python3 run_script.py`
+
+If you want to support multiple contexts/environments, you can pass an argument to the command line to open the specified file:
+```bash
+$ cp sites.txt.example work_sites.txt
+$ python3 run_script.py work
+## This runs the script with the work_sites list, rather than the default sites list.
+```
+
